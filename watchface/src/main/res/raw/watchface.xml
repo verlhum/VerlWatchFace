@@ -1,0 +1,667 @@
+<WatchFace
+    height="450"
+    width="450">
+    <Metadata
+        key="CLOCK_TYPE"
+        value="ANALOG" />
+    <Metadata
+        key="PREVIEW_TIME"
+        value="10:08:32" />
+
+    <Scene backgroundColor="#000000">
+
+        <!-- ============================================================ -->
+        <!-- HOUR TICKS AND MINUTE TICKS                                  -->
+        <!-- ============================================================ -->
+        <!-- Major Hour Ticks (Mint Green Accent) -->
+        <Group name="hour_tick_0" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="0">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_30" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="30">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_60" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="60">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_90" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="90">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_120" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="120">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_150" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="150">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_180" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="180">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_210" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="210">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_240" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="240">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_270" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="270">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_300" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="300">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+        <Group name="hour_tick_330" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="330">
+            <PartDraw x="0" y="0" width="450" height="450">
+                <Line startX="225" startY="6" endX="225" endY="18">
+                    <Stroke color="#A8E6A0" thickness="3" />
+                </Line>
+            </PartDraw>
+        </Group>
+
+        <!-- Minor Minute Ticks (Thin Ivory) -->
+        <Group name="min_tick_6" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="6">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_12" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="12">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_18" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="18">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_24" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="24">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_36" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="36">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_42" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="42">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_48" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="48">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_54" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="54">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_66" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="66">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_72" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="72">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_78" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="78">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+        <Group name="min_tick_84" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="84">
+            <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
+        </Group>
+
+        <!-- ============================================================ -->
+        <!-- TRADITIONAL NUMBERED HOUR MARKERS (1 through 12)             -->
+        <!-- Warm Ivory (#F5F0E6)                                         -->
+        <!-- ============================================================ -->
+        <!-- 12 -->
+        <PartText x="202" y="24" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[12]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 1 -->
+        <PartText x="295" y="48" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[1]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 2 -->
+        <PartText x="362" y="116" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[2]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 3 -->
+        <PartText x="388" y="209" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[3]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 4 -->
+        <PartText x="362" y="301" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[4]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 5 -->
+        <PartText x="295" y="369" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[5]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 6 -->
+        <PartText x="202" y="394" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[6]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 7 -->
+        <PartText x="109" y="369" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[7]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 8 -->
+        <PartText x="42" y="301" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[8]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 9 -->
+        <PartText x="16" y="209" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[9]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 10 -->
+        <PartText x="42" y="116" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[10]]>
+                </Font>
+            </Text>
+        </PartText>
+        <!-- 11 -->
+        <PartText x="109" y="48" width="46" height="32">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="24" color="#F5F0E6" weight="BOLD">
+                    <![CDATA[11]]>
+                </Font>
+            </Text>
+        </PartText>
+
+        <!-- ============================================================ -->
+        <!-- FOUR CIRCULAR COMPLICATIONS AROUND THE CENTER                 -->
+        <!-- ============================================================ -->
+
+        <!-- 12 O'CLOCK COMPLICATION: BATTERY -->
+        <ComplicationSlot
+            slotId="1"
+            name="12_oclock_battery"
+            displayName="@string/battery_complication_name"
+            supportedTypes="RANGED_VALUE SHORT_TEXT MONOCHROMATIC_IMAGE SMALL_IMAGE EMPTY"
+            x="180" y="60" width="90" height="90">
+            <BoundingOval x="0" y="0" width="90" height="90" />
+            <DefaultProviderPolicy
+                defaultSystemProvider="WATCH_BATTERY"
+                defaultSystemProviderType="RANGED_VALUE" />
+
+            <Complication type="RANGED_VALUE">
+                <!-- Dim Green Background Track -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="360">
+                        <Stroke color="#1A331A" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Bright Green Dynamic Progress Arc (Fills Clockwise from 12 o'clock / 0°) -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="0">
+                        <Transform target="endAngle" value="clamp([BATTERY_PERCENT] / 100.0, 0, 1) * 360" />
+                        <Stroke color="#00FF66" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Small Battery Symbol -->
+                <PartText x="0" y="14" width="90" height="18">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
+                            <![CDATA[⚡]]>
+                        </Font>
+                    </Text>
+                </PartText>
+                <!-- Battery Percentage Value -->
+                <PartText x="0" y="32" width="90" height="26">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="17" color="#F5F0E6" weight="BOLD">
+                            <Template><![CDATA[%d%%]]><Parameter expression="[BATTERY_PERCENT]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+                <PartText x="0" y="58" width="90" height="16">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="10" color="#A8E6A0" weight="BOLD">
+                            <![CDATA[BATTERY]]>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+
+            <Complication type="SHORT_TEXT">
+                <!-- Dim Green Background Track -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="360">
+                        <Stroke color="#1A331A" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Bright Green Dynamic Progress Arc (Fills Clockwise from 12 o'clock / 0°) -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="0">
+                        <Transform target="endAngle" value="clamp([BATTERY_PERCENT] / 100.0, 0, 1) * 360" />
+                        <Stroke color="#00FF66" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <PartText x="0" y="14" width="90" height="18">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
+                            <![CDATA[⚡]]>
+                        </Font>
+                    </Text>
+                </PartText>
+                <PartText x="0" y="32" width="90" height="30">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                            <Template><![CDATA[%d%%]]><Parameter expression="[BATTERY_PERCENT]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+
+            <Complication type="EMPTY">
+                <!-- Dim Green Background Track -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="360">
+                        <Stroke color="#1A331A" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Bright Green Dynamic Progress Arc (Fills Clockwise from 12 o'clock / 0°) -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="0">
+                        <Transform target="endAngle" value="clamp([BATTERY_PERCENT] / 100.0, 0, 1) * 360" />
+                        <Stroke color="#00FF66" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <PartText x="0" y="14" width="90" height="18">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
+                            <![CDATA[⚡]]>
+                        </Font>
+                    </Text>
+                </PartText>
+                <PartText x="0" y="32" width="90" height="26">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="17" color="#F5F0E6" weight="BOLD">
+                            <Template><![CDATA[%d%%]]><Parameter expression="[BATTERY_PERCENT]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+                <PartText x="0" y="58" width="90" height="16">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="10" color="#A8E6A0" weight="BOLD">
+                            <![CDATA[BATTERY]]>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+        </ComplicationSlot>
+
+        <!-- 3 O'CLOCK COMPLICATION: DATE -->
+        <ComplicationSlot
+            slotId="2"
+            name="3_oclock_date"
+            displayName="@string/date_complication_name"
+            supportedTypes="SHORT_TEXT MONOCHROMATIC_IMAGE SMALL_IMAGE EMPTY"
+            x="300" y="180" width="90" height="90">
+            <BoundingOval x="0" y="0" width="90" height="90" />
+            <DefaultProviderPolicy
+                defaultSystemProvider="DATE"
+                defaultSystemProviderType="SHORT_TEXT" />
+
+            <Complication type="SHORT_TEXT">
+                <!-- Thin Charcoal Circular Border -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="360">
+                        <Stroke color="#303030" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Mint Green Abbreviated Weekday (Line 1) -->
+                <PartText x="0" y="22" width="90" height="22">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="14" color="#A8E6A0" weight="BOLD">
+                            <Template><![CDATA[%s]]><Parameter expression="[DAY_OF_WEEK_S]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+                <!-- Warm Ivory Abbreviated Month and Day (Line 2) -->
+                <PartText x="0" y="44" width="90" height="22">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="13" color="#F5F0E6" weight="BOLD">
+                            <Template><![CDATA[%s %d]]><Parameter expression="[MONTH_S]" /><Parameter expression="[DAY]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+
+            <Complication type="EMPTY">
+                <!-- Thin Charcoal Circular Border -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="360">
+                        <Stroke color="#303030" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Mint Green Abbreviated Weekday (Line 1) -->
+                <PartText x="0" y="22" width="90" height="22">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="14" color="#A8E6A0" weight="BOLD">
+                            <Template><![CDATA[%s]]><Parameter expression="[DAY_OF_WEEK_S]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+                <!-- Warm Ivory Abbreviated Month and Day (Line 2) -->
+                <PartText x="0" y="44" width="90" height="22">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="13" color="#F5F0E6" weight="BOLD">
+                            <Template><![CDATA[%s %d]]><Parameter expression="[MONTH_S]" /><Parameter expression="[DAY]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+        </ComplicationSlot>
+
+        <!-- 6 O'CLOCK COMPLICATION: STEPS -->
+        <ComplicationSlot
+            slotId="3"
+            name="6_oclock_steps"
+            displayName="@string/steps_complication_name"
+            supportedTypes="GOAL_PROGRESS RANGED_VALUE SHORT_TEXT MONOCHROMATIC_IMAGE SMALL_IMAGE EMPTY"
+            x="180" y="300" width="90" height="90">
+            <BoundingOval x="0" y="0" width="90" height="90" />
+            <DefaultProviderPolicy
+                defaultSystemProvider="STEP_COUNT"
+                defaultSystemProviderType="GOAL_PROGRESS" />
+
+            <Complication type="GOAL_PROGRESS">
+                <!-- Dim Green Background Track -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="360">
+                        <Stroke color="#1A331A" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Bright Green Dynamic Progress Arc (10,000 goal capped at 100%) -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="0">
+                        <Transform target="endAngle" value="clamp([STEP_COUNT] / 10000.0, 0, 1) * 360" />
+                        <Stroke color="#00FF66" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Small Footsteps Symbol -->
+                <PartText x="0" y="14" width="90" height="18">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
+                            <![CDATA[👣]]>
+                        </Font>
+                    </Text>
+                </PartText>
+                <!-- Step Count Value -->
+                <PartText x="0" y="32" width="90" height="26">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                            <Template><![CDATA[%d]]><Parameter expression="[STEP_COUNT]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+                <PartText x="0" y="58" width="90" height="16">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="10" color="#A8E6A0" weight="BOLD">
+                            <![CDATA[STEPS]]>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+
+            <Complication type="SHORT_TEXT">
+                <!-- Dim Green Background Track -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="360">
+                        <Stroke color="#1A331A" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Bright Green Dynamic Progress Arc -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="0">
+                        <Transform target="endAngle" value="clamp([STEP_COUNT] / 10000.0, 0, 1) * 360" />
+                        <Stroke color="#00FF66" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <PartText x="0" y="14" width="90" height="18">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
+                            <![CDATA[👣]]>
+                        </Font>
+                    </Text>
+                </PartText>
+                <PartText x="0" y="32" width="90" height="30">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                            <Template><![CDATA[%d]]><Parameter expression="[STEP_COUNT]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+
+            <Complication type="EMPTY">
+                <!-- Dim Green Background Track -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="360">
+                        <Stroke color="#1A331A" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Bright Green Dynamic Progress Arc -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="0">
+                        <Transform target="endAngle" value="clamp([STEP_COUNT] / 10000.0, 0, 1) * 360" />
+                        <Stroke color="#00FF66" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <PartText x="0" y="14" width="90" height="18">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
+                            <![CDATA[👣]]>
+                        </Font>
+                    </Text>
+                </PartText>
+                <PartText x="0" y="32" width="90" height="26">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                            <Template><![CDATA[%d]]><Parameter expression="[STEP_COUNT]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+                <PartText x="0" y="58" width="90" height="16">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="10" color="#A8E6A0" weight="BOLD">
+                            <![CDATA[STEPS]]>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+        </ComplicationSlot>
+
+        <!-- 9 O'CLOCK COMPLICATION: HEART RATE -->
+        <ComplicationSlot
+            slotId="4"
+            name="9_oclock_heart_rate"
+            displayName="@string/heart_rate_complication_name"
+            supportedTypes="SHORT_TEXT RANGED_VALUE MONOCHROMATIC_IMAGE SMALL_IMAGE EMPTY"
+            x="60" y="180" width="90" height="90">
+            <BoundingOval x="0" y="0" width="90" height="90" />
+            <DefaultProviderPolicy
+                defaultSystemProvider="HEART_RATE"
+                defaultSystemProviderType="SHORT_TEXT" />
+
+            <Complication type="SHORT_TEXT">
+                <!-- Thin Charcoal Circular Border -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="360">
+                        <Stroke color="#303030" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Restrained Red Accent Arc -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="225" endAngle="315">
+                        <Stroke color="#FF4055" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Small Red Heart Icon -->
+                <PartText x="0" y="14" width="90" height="18">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="14" color="#FF4055" weight="BOLD">
+                            <![CDATA[♥]]>
+                        </Font>
+                    </Text>
+                </PartText>
+                <!-- BPM Value in Warm Ivory -->
+                <PartText x="0" y="32" width="90" height="26">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                            <Template><![CDATA[%s]]><Parameter expression="[COMPLICATION.TEXT]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+                <PartText x="0" y="58" width="90" height="16">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="10" color="#888888" weight="BOLD">
+                            <![CDATA[BPM]]>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+
+            <Complication type="EMPTY">
+                <!-- Thin Charcoal Circular Border -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="360">
+                        <Stroke color="#303030" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Restrained Red Accent Arc -->
+                <PartDraw x="0" y="0" width="90" height="90">
+                    <Arc centerX="45" centerY="45" width="80" height="80" startAngle="225" endAngle="315">
+                        <Stroke color="#FF4055" thickness="3" />
+                    </Arc>
+                </PartDraw>
+                <!-- Small Red Heart Icon -->
+                <PartText x="0" y="14" width="90" height="18">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="14" color="#FF4055" weight="BOLD">
+                            <![CDATA[♥]]>
+                        </Font>
+                    </Text>
+                </PartText>
+                <!-- BPM Value in Warm Ivory -->
+                <PartText x="0" y="32" width="90" height="26">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                            <Template><![CDATA[%d]]><Parameter expression="[HEART_RATE]" /></Template>
+                        </Font>
+                    </Text>
+                </PartText>
+                <PartText x="0" y="58" width="90" height="16">
+                    <Text align="CENTER">
+                        <Font family="SYNC_TO_DEVICE" size="10" color="#888888" weight="BOLD">
+                            <![CDATA[BPM]]>
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+        </ComplicationSlot>
+
+        <!-- ============================================================ -->
+        <!-- ANALOG CLOCK HANDS                                           -->
+        <!-- Traditional Baton Warm Ivory (#F5F0E6) with Mint Green (#A8E6A0) -->
+        <!-- ============================================================ -->
+        <AnalogClock x="0" y="0" width="450" height="450">
+
+            <!-- HOUR HAND (Broad baton shape with parallel sides and soft tip) -->
+            <HourHand resource="hour_hand" x="215" y="90" width="20" height="150" pivotX="0.5" pivotY="0.9000" />
+
+            <!-- MINUTE HAND (Longer, narrower baton shape with parallel sides) -->
+            <MinuteHand resource="minute_hand" x="218" y="55" width="14" height="200" pivotX="0.5" pivotY="0.8500" />
+
+            <!-- SECOND HAND (Thin Mint Green with short counterbalance, Hidden in Ambient Mode) -->
+            <SecondHand resource="second_hand" x="223" y="50" width="4" height="200" pivotX="0.5" pivotY="0.8750">
+                <Variant mode="AMBIENT" target="alpha" value="0" />
+            </SecondHand>
+
+        </AnalogClock>
+
+        <!-- CENTER CAP / HUB (Warm Ivory outer ring, Mint Green inner center) -->
+        <Group name="center_cap" x="217" y="217" width="16" height="16">
+            <PartDraw x="0" y="0" width="16" height="16">
+                <Ellipse x="0" y="0" width="16" height="16">
+                    <Fill color="#F5F0E6" />
+                </Ellipse>
+                <Ellipse x="5" y="5" width="6" height="6">
+                    <Fill color="#A8E6A0" />
+                </Ellipse>
+            </PartDraw>
+        </Group>
+
+    </Scene>
+</WatchFace>

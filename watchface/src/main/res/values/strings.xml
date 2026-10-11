@@ -1,0 +1,8 @@
+<resources>
+    <string name="watch_face_name">Pixel Custom Analog</string>
+    <string name="greeting">Hello, world!</string>
+    <string name="battery_complication_name">Battery</string>
+    <string name="date_complication_name">Date</string>
+    <string name="steps_complication_name">Steps</string>
+    <string name="heart_rate_complication_name">Heart Rate</string>
+</resources>

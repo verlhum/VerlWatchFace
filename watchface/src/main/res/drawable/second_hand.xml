@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="4dp"
+    android:height="200dp"
+    android:viewportWidth="4"
+    android:viewportHeight="200">
+    <!-- Single Clean Vector Path: Thin Soft Mint Green (#A8E6A0) Second Hand with Short Counterbalance -->
+    <path
+        android:fillColor="#A8E6A0"
+        android:pathData="M1.3,0 L2.7,0 L2.7,175 L3.2,175 L3.2,192 C3.2,194 0.8,194 0.8,192 L0.8,175 L1.3,175 Z" />
+</vector>

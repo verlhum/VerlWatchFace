@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="14dp"
+    android:height="200dp"
+    android:viewportWidth="14"
+    android:viewportHeight="200">
+    <!-- Outer Warm Ivory (#F5F0E6) Baton Body with Parallel Sides -->
+    <path
+        android:fillColor="#F5F0E6"
+        android:pathData="M2.5,18 L2.5,165 C2.5,178 4.5,182 7,182 C9.5,182 11.5,178 11.5,165 L11.5,18 C11.5,10 9.5,6 7,6 C4.5,6 2.5,10 2.5,18 Z" />
+    <!-- Inner Soft Mint Green (#A8E6A0) Inlay Channel (Completely Enclosed) -->
+    <path
+        android:fillColor="#A8E6A0"
+        android:pathData="M5.8,24 L5.8,150 C5.8,153 6.3,155 7,155 C7.7,155 8.2,153 8.2,150 L8.2,24 C8.2,21 7.7,19 7,19 C6.3,19 5.8,21 5.8,24 Z" />
+</vector>
