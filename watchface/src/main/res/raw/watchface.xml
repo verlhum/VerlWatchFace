@@ -266,21 +266,22 @@
                     </Arc>
                 </PartDraw>
                 <!-- Small Battery Symbol -->
-                <PartText x="0" y="14" width="90" height="18">
+                <PartText x="0" y="12" width="90" height="18">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
                             <![CDATA[⚡]]>
                         </Font>
                     </Text>
                 </PartText>
-                <!-- Battery Percentage Value -->
-                <PartText x="0" y="32" width="90" height="26">
+                <!-- Battery Percentage Value (+11.7% size increase to 19pt) -->
+                <PartText x="0" y="30" width="90" height="28">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="17" color="#F5F0E6" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="19" color="#F5F0E6" weight="BOLD">
                             <Template><![CDATA[%d%%]]><Parameter expression="[BATTERY_PERCENT]" /></Template>
                         </Font>
                     </Text>
                 </PartText>
+                <!-- Battery Label -->
                 <PartText x="0" y="58" width="90" height="16">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="10" color="#A8E6A0" weight="BOLD">
@@ -304,16 +305,16 @@
                         <Stroke color="#00FF66" thickness="3" />
                     </Arc>
                 </PartDraw>
-                <PartText x="0" y="14" width="90" height="18">
+                <PartText x="0" y="12" width="90" height="18">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
                             <![CDATA[⚡]]>
                         </Font>
                     </Text>
                 </PartText>
-                <PartText x="0" y="32" width="90" height="30">
+                <PartText x="0" y="30" width="90" height="30">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="18" color="#F5F0E6" weight="BOLD">
                             <Template><![CDATA[%d%%]]><Parameter expression="[BATTERY_PERCENT]" /></Template>
                         </Font>
                     </Text>
@@ -334,16 +335,16 @@
                         <Stroke color="#00FF66" thickness="3" />
                     </Arc>
                 </PartDraw>
-                <PartText x="0" y="14" width="90" height="18">
+                <PartText x="0" y="12" width="90" height="18">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
                             <![CDATA[⚡]]>
                         </Font>
                     </Text>
                 </PartText>
-                <PartText x="0" y="32" width="90" height="26">
+                <PartText x="0" y="30" width="90" height="28">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="17" color="#F5F0E6" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="19" color="#F5F0E6" weight="BOLD">
                             <Template><![CDATA[%d%%]]><Parameter expression="[BATTERY_PERCENT]" /></Template>
                         </Font>
                     </Text>
@@ -377,18 +378,18 @@
                         <Stroke color="#303030" thickness="3" />
                     </Arc>
                 </PartDraw>
-                <!-- Mint Green Abbreviated Weekday (Line 1) -->
-                <PartText x="0" y="22" width="90" height="22">
+                <!-- Mint Green Abbreviated Weekday Line 1 (+14.3% size increase to 16pt) -->
+                <PartText x="0" y="20" width="90" height="22">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="14" color="#A8E6A0" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="16" color="#A8E6A0" weight="BOLD">
                             <Template><![CDATA[%s]]><Parameter expression="[DAY_OF_WEEK_S]" /></Template>
                         </Font>
                     </Text>
                 </PartText>
-                <!-- Warm Ivory Abbreviated Month and Day (Line 2) -->
-                <PartText x="0" y="44" width="90" height="22">
+                <!-- Warm Ivory Abbreviated Month & Day Line 2 (+15.4% size increase to 15pt) -->
+                <PartText x="0" y="44" width="90" height="24">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="13" color="#F5F0E6" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="15" color="#F5F0E6" weight="BOLD">
                             <Template><![CDATA[%s %d]]><Parameter expression="[MONTH_S]" /><Parameter expression="[DAY]" /></Template>
                         </Font>
                     </Text>
@@ -402,18 +403,18 @@
                         <Stroke color="#303030" thickness="3" />
                     </Arc>
                 </PartDraw>
-                <!-- Mint Green Abbreviated Weekday (Line 1) -->
-                <PartText x="0" y="22" width="90" height="22">
+                <!-- Mint Green Abbreviated Weekday Line 1 (+14.3% size increase to 16pt) -->
+                <PartText x="0" y="20" width="90" height="22">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="14" color="#A8E6A0" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="16" color="#A8E6A0" weight="BOLD">
                             <Template><![CDATA[%s]]><Parameter expression="[DAY_OF_WEEK_S]" /></Template>
                         </Font>
                     </Text>
                 </PartText>
-                <!-- Warm Ivory Abbreviated Month and Day (Line 2) -->
-                <PartText x="0" y="44" width="90" height="22">
+                <!-- Warm Ivory Abbreviated Month & Day Line 2 (+15.4% size increase to 15pt) -->
+                <PartText x="0" y="44" width="90" height="24">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="13" color="#F5F0E6" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="15" color="#F5F0E6" weight="BOLD">
                             <Template><![CDATA[%s %d]]><Parameter expression="[MONTH_S]" /><Parameter expression="[DAY]" /></Template>
                         </Font>
                     </Text>
@@ -448,21 +449,22 @@
                     </Arc>
                 </PartDraw>
                 <!-- Small Footsteps Symbol -->
-                <PartText x="0" y="14" width="90" height="18">
+                <PartText x="0" y="12" width="90" height="18">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
                             <![CDATA[👣]]>
                         </Font>
                     </Text>
                 </PartText>
-                <!-- Step Count Value -->
-                <PartText x="0" y="32" width="90" height="26">
+                <!-- Step Count Value (+12.5% size increase to 18pt) -->
+                <PartText x="0" y="30" width="90" height="28">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="18" color="#F5F0E6" weight="BOLD">
                             <Template><![CDATA[%d]]><Parameter expression="[STEP_COUNT]" /></Template>
                         </Font>
                     </Text>
                 </PartText>
+                <!-- Steps Label -->
                 <PartText x="0" y="58" width="90" height="16">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="10" color="#A8E6A0" weight="BOLD">
@@ -486,16 +488,16 @@
                         <Stroke color="#00FF66" thickness="3" />
                     </Arc>
                 </PartDraw>
-                <PartText x="0" y="14" width="90" height="18">
+                <PartText x="0" y="12" width="90" height="18">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
                             <![CDATA[👣]]>
                         </Font>
                     </Text>
                 </PartText>
-                <PartText x="0" y="32" width="90" height="30">
+                <PartText x="0" y="30" width="90" height="30">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="18" color="#F5F0E6" weight="BOLD">
                             <Template><![CDATA[%d]]><Parameter expression="[STEP_COUNT]" /></Template>
                         </Font>
                     </Text>
@@ -516,16 +518,16 @@
                         <Stroke color="#00FF66" thickness="3" />
                     </Arc>
                 </PartDraw>
-                <PartText x="0" y="14" width="90" height="18">
+                <PartText x="0" y="12" width="90" height="18">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="12" color="#A8E6A0" weight="BOLD">
                             <![CDATA[👣]]>
                         </Font>
                     </Text>
                 </PartText>
-                <PartText x="0" y="32" width="90" height="26">
+                <PartText x="0" y="30" width="90" height="28">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="18" color="#F5F0E6" weight="BOLD">
                             <Template><![CDATA[%d]]><Parameter expression="[STEP_COUNT]" /></Template>
                         </Font>
                     </Text>
@@ -566,21 +568,22 @@
                     </Arc>
                 </PartDraw>
                 <!-- Small Red Heart Icon -->
-                <PartText x="0" y="14" width="90" height="18">
+                <PartText x="0" y="12" width="90" height="18">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="14" color="#FF4055" weight="BOLD">
                             <![CDATA[♥]]>
                         </Font>
                     </Text>
                 </PartText>
-                <!-- BPM Value in Warm Ivory -->
-                <PartText x="0" y="32" width="90" height="26">
+                <!-- BPM Value (+12.5% size increase to 18pt) -->
+                <PartText x="0" y="30" width="90" height="28">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="18" color="#F5F0E6" weight="BOLD">
                             <Template><![CDATA[%s]]><Parameter expression="[COMPLICATION.TEXT]" /></Template>
                         </Font>
                     </Text>
                 </PartText>
+                <!-- BPM Label -->
                 <PartText x="0" y="58" width="90" height="16">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="10" color="#888888" weight="BOLD">
@@ -604,21 +607,22 @@
                     </Arc>
                 </PartDraw>
                 <!-- Small Red Heart Icon -->
-                <PartText x="0" y="14" width="90" height="18">
+                <PartText x="0" y="12" width="90" height="18">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="14" color="#FF4055" weight="BOLD">
                             <![CDATA[♥]]>
                         </Font>
                     </Text>
                 </PartText>
-                <!-- BPM Value in Warm Ivory -->
-                <PartText x="0" y="32" width="90" height="26">
+                <!-- BPM Value (+12.5% size increase to 18pt) -->
+                <PartText x="0" y="30" width="90" height="28">
                     <Text align="CENTER">
-                        <Font family="SYNC_TO_DEVICE" size="16" color="#F5F0E6" weight="BOLD">
+                        <Font family="SYNC_TO_DEVICE" size="18" color="#F5F0E6" weight="BOLD">
                             <Template><![CDATA[%d]]><Parameter expression="[HEART_RATE]" /></Template>
                         </Font>
                     </Text>
                 </PartText>
+                <!-- BPM Label -->
                 <PartText x="0" y="58" width="90" height="16">
                     <Text align="CENTER">
                         <Font family="SYNC_TO_DEVICE" size="10" color="#888888" weight="BOLD">

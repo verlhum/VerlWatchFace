@@ -66,7 +66,13 @@ CONNECTED_DEVICES=$(echo "$ADB_OUTPUT" | grep -v "List of devices" | grep -w "de
 
 if [ -n "$CONNECTED_DEVICES" ]; then
     ADB_CONNECTED=true
-    DEVICE_ID=$(echo "$CONNECTED_DEVICES" | head -n 1)
+    # Prioritize Pixel Watch 5 device if multiple devices attached
+    WATCH_ID=$(echo "$CONNECTED_DEVICES" | grep "67141WRDTW61AX" || true)
+    if [ -n "$WATCH_ID" ]; then
+        DEVICE_ID="$WATCH_ID"
+    else
+        DEVICE_ID=$(echo "$CONNECTED_DEVICES" | head -n 1)
+    fi
 fi
 
 # 3. Handle Deployment Status
@@ -96,10 +102,10 @@ fi
 # 4. Device Diagnostics Logging
 if [ "$ADB_CONNECTED" = true ]; then
     echo "Capturing logcat diagnostics from device $DEVICE_ID..."
-    adb logcat -d | grep -i -E "com.example.verlwatchface|DWF|WatchFace|Complication" | tail -n 100 > "$LOG_DIR/device.log" 2>&1 || true
+    adb -s "$DEVICE_ID" logcat -d | grep -i -E "com.example.verlwatchface|DWF|WatchFace|Complication" | tail -n 100 > "$LOG_DIR/device.log" 2>&1 || true
     echo "" >> "$LOG_DIR/device.log"
     echo "--- DWF Runtime Dumpsys Status ---" >> "$LOG_DIR/device.log"
-    adb shell dumpsys activity service com.google.wear.watchface.runtime >> "$LOG_DIR/device.log" 2>&1 || true
+    adb -s "$DEVICE_ID" shell dumpsys activity service com.google.wear.watchface.runtime >> "$LOG_DIR/device.log" 2>&1 || true
 else
     echo "No ADB device connected. Device logs not captured." > "$LOG_DIR/device.log"
 fi
