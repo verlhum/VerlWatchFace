@@ -3,12 +3,17 @@
     android:height="150dp"
     android:viewportWidth="20"
     android:viewportHeight="150">
-    <!-- Outer Broad Warm Ivory (#F5F0E6) Baton Body with Parallel Sides -->
+    <!-- Skeletonized Warm Ivory (#F5F0E6) Outline -->
     <path
-        android:fillColor="#F5F0E6"
+        android:strokeColor="#F5F0E6"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
         android:pathData="M6,20 L6,132 C6,142 8,146 10,146 C12,146 14,142 14,132 L14,20 C14,12 12,8 10,8 C8,8 6,12 6,20 Z" />
-    <!-- Inner Soft Mint Green (#A8E6A0) Inlay Channel (Completely Enclosed) -->
+    <!-- Subtle Mint Green (#A8E6A0) Center Line Axis -->
     <path
-        android:fillColor="#A8E6A0"
-        android:pathData="M8,28 L8,122 C8,125 9,127 10,127 C11,127 12,125 12,122 L12,28 C12,25 11,23 10,23 C9,23 8,25 8,28 Z" />
+        android:strokeColor="#A8E6A0"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="round"
+        android:pathData="M10,22 L10,132" />
 </vector>

@@ -11,7 +11,7 @@
     <Scene backgroundColor="#000000">
 
         <!-- ============================================================ -->
-        <!-- HOUR TICKS AND MINUTE TICKS                                  -->
+        <!-- LAYER 1: DIAL BACKGROUND, TICK MARKS, AND NUMERALS           -->
         <!-- ============================================================ -->
         <!-- Major Hour Ticks (Mint Green Accent) -->
         <Group name="hour_tick_0" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" angle="0">
@@ -137,10 +137,7 @@
             <PartDraw x="0" y="0" width="450" height="450"><Line startX="225" startY="8" endX="225" endY="14"><Stroke color="#666666" thickness="1" /></Line></PartDraw>
         </Group>
 
-        <!-- ============================================================ -->
-        <!-- TRADITIONAL NUMBERED HOUR MARKERS (1 through 12)             -->
-        <!-- Warm Ivory (#F5F0E6)                                         -->
-        <!-- ============================================================ -->
+        <!-- Traditional Numbered Hour Markers (1 through 12) Warm Ivory (#F5F0E6) -->
         <!-- 12 -->
         <PartText x="202" y="24" width="46" height="32">
             <Text align="CENTER">
@@ -239,7 +236,7 @@
         </PartText>
 
         <!-- ============================================================ -->
-        <!-- FOUR CIRCULAR COMPLICATIONS AROUND THE CENTER                 -->
+        <!-- LAYER 2: FOUR CIRCULAR COMPLICATIONS                         -->
         <!-- ============================================================ -->
 
         <!-- 12 O'CLOCK COMPLICATION: BATTERY -->
@@ -300,7 +297,7 @@
                         <Stroke color="#1A331A" thickness="3" />
                     </Arc>
                 </PartDraw>
-                <!-- Bright Green Dynamic Progress Arc (Fills Clockwise from 12 o'clock / 0°) -->
+                <!-- Bright Green Dynamic Progress Arc -->
                 <PartDraw x="0" y="0" width="90" height="90">
                     <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="0">
                         <Transform target="endAngle" value="clamp([BATTERY_PERCENT] / 100.0, 0, 1) * 360" />
@@ -330,7 +327,7 @@
                         <Stroke color="#1A331A" thickness="3" />
                     </Arc>
                 </PartDraw>
-                <!-- Bright Green Dynamic Progress Arc (Fills Clockwise from 12 o'clock / 0°) -->
+                <!-- Bright Green Dynamic Progress Arc -->
                 <PartDraw x="0" y="0" width="90" height="90">
                     <Arc centerX="45" centerY="45" width="80" height="80" startAngle="0" endAngle="0">
                         <Transform target="endAngle" value="clamp([BATTERY_PERCENT] / 100.0, 0, 1) * 360" />
@@ -633,7 +630,7 @@
         </ComplicationSlot>
 
         <!-- ============================================================ -->
-        <!-- ANALOG CLOCK HANDS                                           -->
+        <!-- LAYER 3: ANALOG CLOCK HANDS (Render Above Complications)      -->
         <!-- Traditional Baton Warm Ivory (#F5F0E6) with Mint Green (#A8E6A0) -->
         <!-- ============================================================ -->
         <AnalogClock x="0" y="0" width="450" height="450">
@@ -651,7 +648,10 @@
 
         </AnalogClock>
 
-        <!-- CENTER CAP / HUB (Warm Ivory outer ring, Mint Green inner center) -->
+        <!-- ============================================================ -->
+        <!-- LAYER 4: CENTER CAP / HUB (Render Above Hands)               -->
+        <!-- Center pivot point at (225, 225)                               -->
+        <!-- ============================================================ -->
         <Group name="center_cap" x="217" y="217" width="16" height="16">
             <PartDraw x="0" y="0" width="16" height="16">
                 <Ellipse x="0" y="0" width="16" height="16">
